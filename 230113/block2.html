@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Block 요소</title>
+    <style>
+        /* 요소 선택자 작성 */
+        /*id값 선택자 #id값*/
+        #aqua-div {
+            background-color: aquamarine;
+            margin-top: 50px;
+            padding-top: 50px;
+        }
+        #pink-div {
+            background-color: pink;
+            margin-top: 50px;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- id 값은 무조건 고유하게 줘야한다.-->
+    <div id="aqua-div">
+        블록 요소 확인
+        <!-- div == 가로공간을 가득차게 만들어준다. (block 모델 요소) -->
+        <!-- b도 마찬가지로 가로공간을 가득차게 만들어준다. (block 모델 요소) -->
+    </div>
+    <p>
+        <!-- 테두리를 기준으로 안쪽을 패딩(padding), 바깥쪽을 마진(margin)이라고 부른다.-->
+        파라그래프
+        <span style="background-color: rgb(255, 0, 0);">인라인 요소</span>
+        파라그래프
+    </p>
+    <div id="pink-div">
+        다른 div 블록 요소
+    </div>
+</body>
+</html>
