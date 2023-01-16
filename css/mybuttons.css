@@ -1,0 +1,30 @@
+button {
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5em;
+}
+.saveChanges {
+    background-color: rgb(51, 102, 153);
+    border: none;
+    color: white;
+}
+.saveChanges:hover {
+    background-color: rgb(67, 132, 197);
+}    
+.cancel {
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(240, 240, 240);
+}
+.cancel:hover {
+    background-color: rgb(240, 240, 240);
+}
+.deletePost {
+    background-color: rgb(255, 51, 102);
+    border: none;
+    color: white;
+}
+.deletePost:hover {
+    background-color: rgb(223, 69, 102);
+}
